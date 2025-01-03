@@ -365,6 +365,7 @@ int main()
                 all_employees.push_back(info);
             }
 
+            // Sorted employees by net salary
             for (auto& emp : Fulltime_Employees) 
             {
                 all_employees.push_back({"FullTime", emp.getNetSalary(), emp.getEmployeeID(), emp.getName()});
