@@ -82,7 +82,7 @@ public:
             } 
             else 
             {
-                cout << "!!! Invalid Employee Position. Please try again !!!" << endl;
+                cout << "!!! Invalid Employee Position. Please try again !!!" <<endl;
             }
         }
 
@@ -92,7 +92,7 @@ public:
 
     void displayempdata() {
         cout << left << setw(15) << "Employee ID" << setw(15) << "Name" << setw(15) << "Position" << setw(15)
-             << "Type" << setw(15) << "Start Date" << setw(15) << "Basic Salary" << endl;
+             << "Type" << setw(15) << "Start Date" << setw(15) << "Basic Salary" <<endl;
         cout << left << setw(15) << employeeid << setw(15) << employeename << setw(15) << employeeposition
              << setw(15) << employeetype << setw(15) << startdate << setw(15) << fixed << setprecision(2) << basicsalary;
     }
